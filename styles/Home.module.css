@@ -1,10 +1,17 @@
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  background-color: #ffffff;
+  background-image: url("../public/space.jpg");
+  width: 100vw;
+  background-position: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .description {
@@ -275,4 +282,87 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.polytext {
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgb(0, 0, 0);
+  border: 5px solid rgb(255, 255, 255);
+  color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.polytext:hover {
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  border: 1px solid rgb(54, 54, 54);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff80;
+  
+}
+
+.earthmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 100vw;
+  overflow-y: auto;
+  height: 400px;
+}
+
+.earthcover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.earth {
+  border-radius: 50%;
+}
+
+.earthchange {
+  
+}
+
+.earthbutton {
+  width: 100px;
+  height: 40px;
+  font-size: large;
+}
+
+.maintext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
